@@ -1,0 +1,68 @@
+/* Sidebar styling */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  /* Changed from left to right */
+  background: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Share Tech Mono', sans-serif;
+}
+
+/* Open state */
+.sidenav.open {
+  width: 150px;
+}
+
+/* Rotated nav items */
+.sidenav a {
+  padding: 0.6rem;
+  height: 2rem;
+  width: 7rem;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  border: 3px solid black;
+  display: block;
+  transition: 0.3s;
+  margin-top: 6rem;
+  transform: rotate(-90deg);
+  /* Rotate 90 degrees */
+}
+
+/* Rotate on hover */
+.sidenav a:hover {
+  color: #f1f1f1;
+  background: black;
+}
+
+/* Close button */
+.closebtn {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  /* Adjusted for right-side nav */
+  font-size: 36px;
+  background: none;
+  cursor: pointer;
+  border: 0;
+}
+
+/* Open button (trigger) */
+.open-btn {
+  position: fixed;
+  right: 20px;
+  height: 50px;
+  font-size: 36px;
+  cursor: pointer;
+  border: 0;
+}

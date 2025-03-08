@@ -1,0 +1,53 @@
+body {
+    padding: 2rem;
+}
+section{
+    height: 100vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    margin-top: 26rem;
+}
+img{
+    width: 3rem;
+    height: 3rem;
+}
+h3{
+    font-size: 3rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: bold;
+    font-family: '', sans-serif;
+}
+h1{
+    font-size: 8rem;
+    font-family: 'LDR#8', sans-serif;                                        
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.cta{
+    padding: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Share Tech Mono', sans-serif;                                              
+    border: 0;
+    background: url('/public/assets/btn.png');
+    background-size: cover; /* Adjust to cover the button */
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    transition: 0.3s;
+}
+.cta:hover{
+    width: 10.4rem;
+    height: 2.4rem;
+}
+p{
+    width: 60%;
+    font-family: 'Share Tech Mono', sans-serif;
+}

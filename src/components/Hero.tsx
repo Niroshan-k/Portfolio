@@ -6,7 +6,7 @@ export default function Hero(){
         <>
             <section>
                 <div>
-                    <img src="/assets/logo.png"></img>
+                    <img src="assets/fav.png"></img>
                 </div>
                 <div className="text">
                     <h3>Hallo, I'm</h3>
